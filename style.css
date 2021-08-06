@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #E5E6E8;
+}
+.one{
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.one img{
+    width: 15rem;
+}
+ul{
+    display: flex;
+
+}
+li{
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li a{
+color: black;
+text-decoration: none;
+}
+li a:hover{
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.content{
+    background-image: url("img/drink.jpg");
+    min-height: 100%;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+.secone{
+    width: 100%;
+padding-top: 2rem;
+padding-left: 4rem;
+   
+}
+.secone p{
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.search{
+   
+     font-size: 20px;
+    width:25rem;
+    height:3rem;
+    border: none;
+    border-radius: 5px;
+   }
+   .search-container button{
+     width: 5rem;
+     height: 3rem;
+     background-color: orange;
+   }
+   .sectwo{
+    width: 40%;
+    margin-top: 2rem;
+    padding-left: 4rem;
+      
+        float: left;
+   }
+  
+  .about p{
+    color: orange;
+    font-size: 1.5rem;
+  }
+  .about h1{
+    margin-top: 0;
+    padding-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+     color:#000; 
+  }
+  .about .p{
+    color: rgb(245, 179, 57);
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+  .about button{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 5px 5px;
+  }
+  .about button:hover{
+    width: 155px;
+    height: 45px;
+    
+    background-color: skyblue;
+  }
+  .all{
+    background:#E5E6E8;
+    text-align: center;
+   }
+   .links a{
+       color: black;
+       padding: 20px;
+      font-size: 1rem;
+      text-decoration: none;
+   }
+   .links a:hover{
+       color: orange;
+       font-weight: bold;
+       text-decoration: underline;
+   }
+   .mainone{
+    padding-top: 4rem;
+    font-size: 1.5rem;
+    color: orange;
+   }
+   .mainone h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    color: black;
+}
+.images{
+    width:60%;
+    display: flex;
+  
+   flex-wrap: wrap;
+ 
+   margin: 0 auto;
+   padding-top: 2rem;
+  
+   }
+   .images img{
+    width: 12rem;
+    height: 12rem;
+    
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.image{
+     width: 16rem;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px black;
+    padding:20px;
+   
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+    
+
+.load a{
+ text-decoration: none;
+ color: black;
+padding: 10px;
+margin: 0 auto
+}
+.load a:hover{
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.image p{
+    text-align: left;
+    padding-left: 5px;
+}
+.homimg{
+    width: 100%;
+    margin-top: 20px;
+    margin-left:4rem;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+  
+    background-color: #E5E6E8;
+}
+.homimg img{
+    width: 8rem;
+    height: 8rem;
+}
+.chain{
+    width: 50%;
+  
+    margin: 0 auto;
+    
+}
+.chain p{
+    font-size: 2rem;
+    padding: 20px;
+}
+.chain li{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.create{
+    width: 70%;
+
+   margin: 0 auto;
+   text-align: center;
+}
+.create img{
+    width: 15rem;
+  
+}
+.create .p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: orange;
+    padding: 20px;
+   }
+   .create h1{
+       text-align: center;
+       font-size: 4rem;
+       padding: 30px;
+   }
+   
+   .create h2{
+       text-align: center;
+   }
+  
+   .ps{
+    text-align: center;
+       color: black;
+       font-size:1rem;
+       margin: 20px;
+   }
+   
+   .sec{
+    display: flex;
+    justify-content: center;
+      background-color: rgb(225, 235, 238);
+}
+.sec:hover{
+    background-color:rgb(214, 223, 226);
+}
+.p{
+    padding: 20px;
+}
+.app img{
+    width: 10rem;
+    padding: 10px;
+    padding-top: 30px;
+    display: flex;
+     align-items: center;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.social-links img{
+    width: 2rem;
+   margin-top: 20px;
+  
+}
+
+
+@media only screen and  (max-width: 1300px){
+    .images{
+        width: 80%;
+    }
+.sectwo{
+    width: 50%;
+}
+
+}
+@media only screen and  (max-width: 1100px){
+    .images{
+        width: 80%;
+    }
+    .sectwo{
+        width: 60%;
+    }
+    .chain{
+        width: 70%;
+    }
+
+}
+@media only screen and  (max-width: 920px){
+    .sectwo{
+        width: 80%;
+  }
+  .images{
+     width: 80%;      
+  }
+  .sec{
+      display: flex;
+      flex-wrap: wrap;
+  }
+ 
+ }
+ @media only screen and  (max-width: 736px){
+    .one{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+    .search{
+        width: 50%;
+    }
+    .sectwo{
+        width: 90%;
+    }
+    .chain{
+        width: 80%;
+    }
+ }
+ @media only screen and  (max-width: 620px){
+
+    .sectwo{
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .sectwo h1{
+        font-size:2rem;
+        padding-left: 1rem;
+    }
+   .chain{
+       width: 90%;
+   }
+   
+ }
+ @media only screen and  (max-width: 400px){
+     .load{
+         display: flex;
+         flex-wrap: wrap;
+     }
+ }
+
+ @media only screen and  (max-width: 400px){
+     .secone{
+         padding-left: 1rem
+     }
+     .search{
+         width: 50%;
+     }
+     .chain{
+        width: 100%;
+    }
+ }
